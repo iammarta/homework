@@ -1,0 +1,39 @@
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+.header_wrapper {
+    background-color: #f3f3f3;
+    min-height: 100px;
+}
+.descr_wrapper{
+    margin-top: 20px;
+}
+.features-list li{
+    margin-bottom: 20px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.view {
+    margin-top: 10px;
+    text-align: center;
+}
+.footer-wrapper{
+    background-color: #f3f3f3;
+    min-height: 50px;
+    margin-top: 20px;
+}
+footer.footer-wrapper p {
+    padding-top: 10px;
+    font-size: 15px;
+}
+@media(min-width: 375px) and (max-width:1199px){
+    img {
+    width: 100%;
+    height: auto;
+    }
+}
